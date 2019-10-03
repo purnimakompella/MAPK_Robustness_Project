@@ -8,7 +8,7 @@ library(flowWorkspace)
 #install.packages("tools") #currently installed; need it for file_path_sans_ext
 library (tools)
 
-parent.dir <- "/Users/kompella/Documents/PeisajovichLab/FACS/2018.08.12_CB009_lines1to4/Renamed"
+parent.dir <- ""
 setwd(parent.dir)
 
 filenames <- list.files(".", pattern=".fcs", recursive = TRUE, include.dirs = TRUE)
